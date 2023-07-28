@@ -6,9 +6,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")] // url route to /api/users   'users' is because it defaults to classname excluding 'Controller'
-    public class UsersController : ControllerBase
+  
+    public class UsersController : BaseApiController
     {
         private readonly DataContext _context;
 

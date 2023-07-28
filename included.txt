@@ -1,0 +1,6 @@
+ASPNET
+Angular
+ngx-bootstrap
+bootstrap
+Entity framework
+sqlite
